@@ -33,7 +33,7 @@ apis:
   tags: Coupons
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
