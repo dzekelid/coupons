@@ -33,17 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-remove-coupon-post.md
-- name: Expedia Apply Coupon
-  description: Mobile API Packages Apply Coupon
+- name: Expedia Remove Coupon
+  description: Mobile API Packages Remove Coupon
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x/
   tags: Coupons
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-coupon-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-remove-coupon-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-coupon-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-remove-coupon-post-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
