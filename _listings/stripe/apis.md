@@ -34,17 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-post.md
-- name: Stripe Get Coupons Coupon
-  description: Retrieves the coupon with the given ID.
+- name: Stripe Add Coupons Coupon
+  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
+    amount_off) are, by design, not editable.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Coupons
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
