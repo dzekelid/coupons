@@ -34,17 +34,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-coupon-post.md
-- name: Stripe Get Coupons
-  description: Returns a list of your coupons.
+- name: Stripe Add Coupons
+  description: "You can create coupons easily via the coupon management page of the
+    Stripe dashboard. Coupon creation is also accessible via the API if you need to
+    create coupons on the fly.A coupon has either a percent_off or an amount_off and
+    currency. If you set an amount_off, that amount will be subtracted from any invoice\u2019s
+    subtotal. For example, an invoice with a subtotal of 100 will have a final total
+    of 0 if a coupon with an amount_off of 200 is applied to it and an invoice with
+    a subtotal of 300 will have a final total of 100 if a coupon with an amount_off
+    of 200 is applied to it."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Coupons
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
