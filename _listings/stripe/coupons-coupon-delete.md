@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Delete Coupons Coupon
+  description: "You can delete coupons via the coupon management page of the Stripe
+    dashboard. However, deleting a coupon does not affect any customers who have already
+    applied the coupon; it means that new customers can\u2019t redeem the coupon.
+    You can also delete coupons via the API."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
