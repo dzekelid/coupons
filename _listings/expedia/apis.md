@@ -33,7 +33,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-remove-coupon-post.md
+- name: Expedia Apply Coupon
+  description: Mobile API Packages Apply Coupon
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  humanURL: http://developer.ean.com/
+  baseURL: https://apim.expedia.com/x/
+  tags: Coupons
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-coupon-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/api-m-trip-coupon-post-postman.md
 x-common:
+- type: x-base
+  url: http://api.ean.com
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/expedia
+- type: x-documentation
+  url: https://www.expedia.com/static/mobile/swaggerui/
+- type: x-github
+  url: https://github.com/Expedia
+- type: x-swagger--original
+  url: https://www.expedia.com/static/mobile/swaggerui/swagger.json
+- type: x-twitter
+  url: https://twitter.com/ExpediaEAN
+- type: x-website
+  url: http://developer.ean.com/
 - type: x-base
   url: http://api.ean.com
 - type: x-crunchbase
