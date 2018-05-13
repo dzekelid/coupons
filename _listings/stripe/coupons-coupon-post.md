@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Coupons Coupon
+  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
+    amount_off) are, by design, not editable.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
