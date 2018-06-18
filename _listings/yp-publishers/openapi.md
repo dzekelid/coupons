@@ -1,18 +1,13 @@
 ---
 swagger: "2.0"
-x-collection-name: Stripe
-x-complete: 0
+x-collection-name: YP Publishers
+x-complete: 1
 info:
-  title: Stripe Get Coupons
-  description: Returns a list of your coupons.
-  termsOfService: https://stripe.com/us/terms/
-  contact:
-    name: Stripe Dev Platform Team
-    url: https://stripe.com
-    email: dev-platform@stripe.com
-  version: v1
-host: api.stripe.com
-basePath: v1/
+  title: Yellow Pages
+  description: use-yp-places-api-to-power-your-web-and-mobile-apps-with-business-listings-reviews-maps-and-much-more---
+  version: 1.0.0
+host: api2.yp.com
+basePath: /content/v1/
 schemes:
 - http
 produces:
@@ -23,25 +18,20 @@ paths:
   /coupons:
     get:
       summary: Get Coupons
-      description: Returns a list of your coupons.
+      description: Returns coupons near the submitted location. Optionally, a term
+        parameter can be submitted to restrict coupons to relevant categories.
       operationId: getCoupons
       x-api-path-slug: coupons-get
       parameters:
       - in: query
-        name: created
-        description: A filter on the list based on the object `created` field
+        name: format
+        description: Desired format of the response
       - in: query
-        name: ending_before
-        description: A cursor for use in pagination
+        name: searchloc
+        description: Unparsed, user-entered search location
       - in: query
-        name: expand
-        description: Specifies which fields in the response should be expanded
-      - in: query
-        name: limit
-        description: A limit on the number of objects to be returned
-      - in: query
-        name: starting_after
-        description: A cursor for use in pagination
+        name: term
+        description: Unparsed, user-entered search term
       responses:
         1:
           description: Photoset not found - The photoset id passed was not the id
@@ -85,19 +75,8 @@ paths:
         116:
           description: Bad URL found - One or more arguments contained a URL that
             has been used for abuse on Flickr
+        200:
+          description: OK
       tags:
       - Coupons
-x-streamrank:
-  polling_total_time_average: "0"
-  polling_size_download_average: "0"
-  streaming_total_time_average: "0"
-  streaming_size_download_average: "0"
-  change_yes: "0"
-  change_no: "0"
-  time_percentage: "0"
-  size_percentage: "0"
-  change_percentage: "200"
-  last_run: ~
-  days_run: "0"
-  minute_run: "0"
 ---

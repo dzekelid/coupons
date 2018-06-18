@@ -1,24 +1,21 @@
 ---
 name: Expedia
 x-slug: expedia
-description: Expedia.com is an Internet-based travel agency and a part of Expedia,
-  Inc.. It books airline tickets, hotel reservations, car rentals, cruises, vacation
-  packages, and various attractions and services via the World Wide Web and telephone
-  travel agents. The site uses the Sabre reservation system as their main Global reservations
-  system.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+description: Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc.
+  Our technology powers the hotel offering of thousands of partners around the world.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "197733"
 tags: Coupons
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Expedia Apply Coupon
   x-api-slug: expedia
   description: Mobile API Packages Apply Coupon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/m/trip/coupon
   tags: Travel,Airports,Airplanes,Coupons,Airlines
@@ -30,7 +27,7 @@ apis:
 - name: Expedia Remove Coupon
   x-api-slug: expedia
   description: Mobile API Packages Remove Coupon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/m/trip/remove/coupon
   tags: Travel,Airports,Airplanes,Coupons,Airlines
@@ -47,7 +44,7 @@ apis:
     of the best travel applications on the market are powered by the EAN API. Learn
     more reasons to partner with EAN by taking a look at our brochure and watching
     our video. The world of travel awaits you!
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x/
   tags: Coupons
@@ -59,8 +56,12 @@ x-common:
   url: http://api.ean.com
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/expedia
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/ean-upc-codes-com
 - type: x-documentation
   url: https://www.expedia.com/static/mobile/swaggerui/
+- type: x-email
+  url: support@ean.com
 - type: x-github
   url: https://github.com/Expedia
 - type: x-swagger--original

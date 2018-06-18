@@ -1,22 +1,23 @@
 ---
 name: Stripe
 x-slug: stripe
-description: 'Stripe is a simple, developer-friendly way to accept payments online.
-  They believe that enabling transactions on the web is a problem rooted in code,
-  not finance, and they want to help put more websites in business. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+description: Online payment processing for internet businesses. Stripe is a suite
+  of payment APIs that powers commerce for online businesses of all sizes, including
+  fraud prevention, and subscription management. Use Stripe???s payment platform to
+  accept and process p...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "1793"
 tags: Coupons
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Stripe Get Coupons
   x-api-slug: stripe
   description: Returns a list of your coupons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons
   tags: Coupons
@@ -35,7 +36,7 @@ apis:
     of 0 if a coupon with an amount_off of 200 is applied to it and an invoice with
     a subtotal of 300 will have a final total of 100 if a coupon with an amount_off
     of 200 is applied to it."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons
   tags: Coupons
@@ -48,7 +49,7 @@ apis:
     dashboard. However, deleting a coupon does not affect any customers who have already
     applied the coupon; it means that new customers can\u2019t redeem the coupon.
     You can also delete coupons via the API."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons/{coupon}
   tags: Coupons, Coupon
@@ -58,7 +59,7 @@ apis:
 - name: Stripe Get Coupons Coupon
   x-api-slug: stripe
   description: Retrieves the coupon with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons/{coupon}
   tags: Coupons, Coupon
@@ -71,7 +72,7 @@ apis:
   x-api-slug: stripe
   description: Updates the metadata of a coupon. Other coupon details (currency, duration,
     amount_off) are, by design, not editable.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons/{coupon}
   tags: Coupons, Coupon
@@ -81,7 +82,7 @@ apis:
 - name: Stripe
   x-api-slug: stripe
   description: Web and mobile payments, built for developers.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Coupons
@@ -99,6 +100,22 @@ x-common:
   url: https://stripe.com/docs/upgrades
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/stripe
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stripe
+- type: x-email
+  url: info@stripe.com
+- type: x-email
+  url: privacy@stripe.com
+- type: x-email
+  url: atlas@stripe.com
+- type: x-email
+  url: notices@stripe.com
+- type: x-email
+  url: jane.diaz@stripe.com
+- type: x-email
+  url: nonprofit@stripe.com
+- type: x-email
+  url: support@stripe.com
 - type: x-github
   url: https://github.com/stripe
 - type: x-pricing
@@ -107,6 +124,8 @@ x-common:
   url: https://twitter.com/stripe
 - type: x-website
   url: https://stripe.com/
+- type: x-website
+  url: http://stripe.com
 include: []
 maintainers:
 - FN: Kin Lane
