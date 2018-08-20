@@ -1,34 +1,45 @@
 ---
 name: PowerInbox
-description: Chargify easily automates billing for recurring revenue businesses. Chargify
-  automates billing, billing related emails, the customer signup process, the application
-  of taxes and coupons, the process when a credit card fails, etc.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/385_logo.jpg
+x-slug: powerinbox
+description: Chargify is the best online billing software for all of your Recurring
+  Billing needs. Learn more about simplifying your Subscription Billing today.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/385-powerinbox.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Subscriptions
-- Stack Network
-- Shopping
-- Payment API
-- Invoicing
-- Coupons
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/coupons/master/_listings/powerinbox/apis.yaml
+x-alexaRank: "58585"
+tags: Coupons
+created: "2018-08-19"
+modified: "2018-08-19"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/powerinbox/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PowerInbox
+  x-api-slug: powerinbox
+  description: Chargify is the best online billing software for all of your Recurring
+    Billing needs. Learn more about simplifying your Subscription Billing today.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/385-powerinbox.jpg
+  humanURL: http://docs.chargify.com/api-introduction
+  baseURL: https:///
+  tags: Coupons
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/powerinbox/openapi.md
 x-common:
 - type: x-blog
   url: https://chargify.com/blog/
 - type: x-blog-rss
   url: https://twitter.com/pontiflex
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/chargify
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/chargify
+- type: x-email
+  url: support@chargify.com
 - type: x-github
   url: https://github.com/chargify
 - type: x-twitter
   url: https://twitter.com/powerinbox
+- type: x-twitter
+  url: https://twitter.com/Chargify
 - type: x-website
   url: http://docs.chargify.com/api-introduction
 include: []

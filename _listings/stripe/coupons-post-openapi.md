@@ -4,14 +4,14 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Add Coupons
-  description: "You can create coupons easily via the coupon management page of the
+  description: You can create coupons easily via the coupon management page of the
     Stripe dashboard. Coupon creation is also accessible via the API if you need to
     create coupons on the fly.A coupon has either a percent_off or an amount_off and
-    currency. If you set an amount_off, that amount will be subtracted from any invoice\u2019s
+    currency. If you set an amount_off, that amount will be subtracted from any invoice???s
     subtotal. For example, an invoice with a subtotal of 100 will have a final total
     of 0 if a coupon with an amount_off of 200 is applied to it and an invoice with
     a subtotal of 300 will have a final total of 100 if a coupon with an amount_off
-    of 200 is applied to it."
+    of 200 is applied to it.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -96,14 +96,14 @@ paths:
       - Coupons
     post:
       summary: Add Coupons
-      description: "You can create coupons easily via the coupon management page of
+      description: You can create coupons easily via the coupon management page of
         the Stripe dashboard. Coupon creation is also accessible via the API if you
         need to create coupons on the fly.A coupon has either a percent_off or an
         amount_off and currency. If you set an amount_off, that amount will be subtracted
-        from any invoice\u2019s subtotal. For example, an invoice with a subtotal
-        of 100 will have a final total of 0 if a coupon with an amount_off of 200
-        is applied to it and an invoice with a subtotal of 300 will have a final total
-        of 100 if a coupon with an amount_off of 200 is applied to it."
+        from any invoice???s subtotal. For example, an invoice with a subtotal of
+        100 will have a final total of 0 if a coupon with an amount_off of 200 is
+        applied to it and an invoice with a subtotal of 300 will have a final total
+        of 100 if a coupon with an amount_off of 200 is applied to it.
       operationId: postCoupons
       x-api-path-slug: coupons-post
       parameters:

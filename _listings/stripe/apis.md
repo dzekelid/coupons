@@ -9,74 +9,191 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Coupons
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-19"
+modified: "2018-08-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Get Coupons
+- name: Stripe
   x-api-slug: stripe
-  description: Returns a list of your coupons.
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///coupons
-  tags: Coupons
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
-- name: Stripe Add Coupons
+- name: Stripe
   x-api-slug: stripe
-  description: "You can create coupons easily via the coupon management page of the
-    Stripe dashboard. Coupon creation is also accessible via the API if you need to
-    create coupons on the fly.A coupon has either a percent_off or an amount_off and
-    currency. If you set an amount_off, that amount will be subtracted from any invoice\u2019s
-    subtotal. For example, an invoice with a subtotal of 100 will have a final total
-    of 0 if a coupon with an amount_off of 200 is applied to it and an invoice with
-    a subtotal of 300 will have a final total of 100 if a coupon with an amount_off
-    of 200 is applied to it."
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///coupons
-  tags: Coupons
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
-- name: Stripe Delete Coupons Coupon
+- name: Stripe
   x-api-slug: stripe
-  description: "You can delete coupons via the coupon management page of the Stripe
-    dashboard. However, deleting a coupon does not affect any customers who have already
-    applied the coupon; it means that new customers can\u2019t redeem the coupon.
-    You can also delete coupons via the API."
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///coupons/{coupon}
-  tags: Coupons, Coupon
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
-- name: Stripe Get Coupons Coupon
+- name: Stripe
   x-api-slug: stripe
-  description: Retrieves the coupon with the given ID.
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///coupons/{coupon}
-  tags: Coupons, Coupon
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
-- name: Stripe Add Coupons Coupon
+- name: Stripe
   x-api-slug: stripe
-  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
-    amount_off) are, by design, not editable.
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///coupons/{coupon}
-  tags: Coupons, Coupon
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+- name: Stripe
+  x-api-slug: stripe
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+- name: Stripe
+  x-api-slug: stripe
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+- name: Stripe
+  x-api-slug: stripe
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Technology, Invoices, Payments, Relative Data API,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
 - name: Stripe
@@ -90,6 +207,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/openapi.md
 x-common:
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog

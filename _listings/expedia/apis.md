@@ -7,31 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedi
 x-kinRank: "9"
 x-alexaRank: "197733"
 tags: Coupons
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-19"
+modified: "2018-08-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Expedia Apply Coupon
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Packages Apply Coupon
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/m/trip/coupon
-  tags: Travel,Airports,Airplanes,Coupons,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data
+    API, General Data API, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apimtripcoupon-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apimtripcoupon-post-openapi.md
-- name: Expedia Remove Coupon
+- name: Expedia
   x-api-slug: expedia
-  description: Mobile API Packages Remove Coupon
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/m/trip/remove/coupon
-  tags: Travel,Airports,Airplanes,Coupons,Airlines
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data
+    API, General Data API, Pedestal, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apimtripcoupon-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apimtripcoupon-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apimtripremovecoupon-post-postman.md
   - type: x-openapi-spec
@@ -52,6 +60,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/openapi.md
 x-common:
+- type: x-api-stack
+  url: http://expedia.stack.network
 - type: x-base
   url: http://api.ean.com
 - type: x-crunchbase

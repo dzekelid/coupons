@@ -1,27 +1,28 @@
 ---
 name: PassKit
-description: PassKit enable innovative businesses of all sizes, and our partners,
-  across the world, to efficiently engage, delight and deepen relationships through
-  their mobile devices. We do this by providing them with the technology and capabilities
-  to confidently and effectively realize the potential on the mobile wallet. Clients
-  easily integrate smartphone passes into their business by using PassKitrsquo;s simple
-  and intuitive tools and scaleable infrastructure. PassKit makes the world of mobile
-  commerce accessible to all businesses. By using PassKit, businesses no longer need
-  expensive cloud infrastructure or sophisticated point of sales scanning solutions
-  to provide this functionality.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1461_logo.png
+x-slug: passkit
+description: Effortlessly create and manage engaging, contextual, connected online
+  to offline experiences with the latest technologies.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1461-passkit.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Ticket
-- Stack Network
-- Payment API
-- Coupons
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/coupons/master/_listings/passkit/apis.yaml
+x-alexaRank: "562564"
+tags: Coupons
+created: "2018-08-19"
+modified: "2018-08-19"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/passkit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PassKit
+  x-api-slug: passkit
+  description: Effortlessly create and manage engaging, contextual, connected online
+    to offline experiences with the latest technologies.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1461-passkit.jpg
+  humanURL: http://passkit.com
+  baseURL: https:///
+  tags: Coupons
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/passkit/openapi.md
 x-common:
 - type: x-base
   url: https://api.passkit.com/
@@ -29,8 +30,12 @@ x-common:
   url: http://news.passkit.com
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/passkit
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/passkit
 - type: x-developer
   url: https://passkit.com/documentation/
+- type: x-email
+  url: support@passkit.com
 - type: x-github
   url: https://github.com/PassKit
 - type: x-pricing
