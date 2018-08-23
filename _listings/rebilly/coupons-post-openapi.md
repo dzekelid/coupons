@@ -118,6 +118,102 @@ paths:
       - Coupons
       - Expiration
       - Time
+  /coupons-redemptions:
+    get:
+      summary: Retrieve a list of coupon redemptions
+      description: ""
+      operationId: coupons_redemptions.get
+      x-api-path-slug: couponsredemptions-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - List
+      - Of
+      - Coupon
+      - Redemptions
+    post:
+      summary: Redeem a coupon
+      description: Redeem a coupon
+      operationId: coupons_redemptions.post
+      x-api-path-slug: couponsredemptions-post
+      parameters:
+      - in: body
+        name: body
+        description: Redeem a coupon
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Redeem
+      - Coupon
+  /coupons-redemptions/{id}:
+    get:
+      summary: Retrieve a coupon redemption with specified identifier string
+      description: ""
+      operationId: coupons_redemptions.id.get
+      x-api-path-slug: couponsredemptionsid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - Coupon
+      - Redemption
+      - Specified
+      - Identifier
+      - String
+  /coupons-redemptions/{id}/cancel:
+    post:
+      summary: Cancel a coupon redemption
+      description: ""
+      operationId: coupons_redemptions.id.cancel.post
+      x-api-path-slug: couponsredemptionsidcancel-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cancel
+      - Coupon
+      - Redemption
+  /coupons/{redemptionCode}:
+    get:
+      summary: Retrieve a coupon
+      description: Retrieve a coupon with specified redemption code string
+      operationId: coupons.redemptionCode.get
+      x-api-path-slug: couponsredemptioncode-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - Coupon
+    put:
+      summary: Create or update a coupon with predefined redemption code
+      description: Create or update a coupon with predefined redemption code
+      operationId: coupons.redemptionCode.put
+      x-api-path-slug: couponsredemptioncode-put
+      parameters:
+      - in: body
+        name: body
+        description: Coupon resource
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Update
+      - Coupon
+      - Predefined
+      - Redemption
+      - Code
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -169,6 +169,51 @@ paths:
       - Specified
       - Identifier
       - String
+  /coupons-redemptions/{id}/cancel:
+    post:
+      summary: Cancel a coupon redemption
+      description: ""
+      operationId: coupons_redemptions.id.cancel.post
+      x-api-path-slug: couponsredemptionsidcancel-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cancel
+      - Coupon
+      - Redemption
+  /coupons/{redemptionCode}:
+    get:
+      summary: Retrieve a coupon
+      description: Retrieve a coupon with specified redemption code string
+      operationId: coupons.redemptionCode.get
+      x-api-path-slug: couponsredemptioncode-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - Coupon
+    put:
+      summary: Create or update a coupon with predefined redemption code
+      description: Create or update a coupon with predefined redemption code
+      operationId: coupons.redemptionCode.put
+      x-api-path-slug: couponsredemptioncode-put
+      parameters:
+      - in: body
+        name: body
+        description: Coupon resource
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Update
+      - Coupon
+      - Predefined
+      - Redemption
+      - Code
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

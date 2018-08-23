@@ -163,6 +163,27 @@ paths:
       tags:
       - Validate
       - Coupon
+  /rest/orders/{orderId}/coupons/{coupon}:
+    post:
+      summary: Redeem a coupon code
+      description: Redeems a coupon code and applies it to an order. The ID of the
+        order must be specified. If the coupon was successfully redeemed, the coupon
+        data will be returned. If the coupon can not be redeemed, a validation exception
+        will be thrown.
+      operationId: postRestOrdersOrderCouponsCoupon
+      x-api-path-slug: restordersorderidcouponscoupon-post
+      parameters:
+      - in: path
+        name: coupon
+      - in: path
+        name: orderId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Redeem
+      - Coupon
+      - Code
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

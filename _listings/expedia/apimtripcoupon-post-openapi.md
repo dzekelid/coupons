@@ -43,6 +43,25 @@ paths:
       - Airplanes
       - Coupons
       - Airlines
+  /api/m/trip/remove/coupon:
+    post:
+      summary: Remove Coupon
+      description: Mobile API Packages Remove Coupon
+      operationId: packages-remove-coupon
+      x-api-path-slug: apimtripremovecoupon-post
+      parameters:
+      - in: formData
+        name: tripId
+        description: The tripId we are going to apply the coupon to
+      responses:
+        200:
+          description: OK
+      tags:
+      - Travel
+      - Airports
+      - Airplanes
+      - Coupons
+      - Airlines
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
