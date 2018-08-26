@@ -7,26 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/324-aisle4
 x-kinRank: "7"
 x-alexaRank: "1583021"
 tags: Coupons
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/aisle411/apis.md
 specificationVersion: "0.14"
-apis:
-- name: aisle411
-  x-api-slug: aisle411
-  description: aisle411 is a platform that provides indoor maps of stores, locations
-    of products in stores, and commerce solutions. aisle411 also offers other features,
-    such as coupon applications and checkout services.The aisle411 API allows developers
-    to access and integrate the functionality of aisle411 with other applications
-    and to create new applications. Public documentation is not available; interested
-    developers should email partners@aisle411.com for more information.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/324-aisle411.jpg
-  humanURL: http://aisle411.com
-  baseURL: https:///
-  tags: Coupons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/aisle411/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://crater.aisle411.com/webservices2/

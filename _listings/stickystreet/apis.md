@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/943-sticky
 x-kinRank: "7"
 x-alexaRank: "7714125"
 tags: Coupons
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stickystreet/apis.md
 specificationVersion: "0.14"
-apis:
-- name: StickyStreet
-  x-api-slug: stickystreet
-  description: Loyalty platform for incentivization. Now powered by @mozido.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/943-stickystreet.jpg
-  humanURL: http://api.stickystreet.com/
-  baseURL: https:///
-  tags: Coupons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stickystreet/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://api.stickystreet.com/

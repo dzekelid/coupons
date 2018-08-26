@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-master
 x-kinRank: "9"
 x-alexaRank: "48280"
 tags: Coupons
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/mastercard/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mastercard
-  x-api-slug: mastercard
-  description: Mastercard is a leading global payments & technology company that connects
-    consumers, businesses, merchants, issuers & governments around the world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
-  humanURL: https://developer.mastercard.com/
-  baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1
-  tags: Coupons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/mastercard/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://mapquest.api.gallery.streamdata.io

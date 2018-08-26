@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1150-sideb
 x-kinRank: "7"
 x-alexaRank: "4081324"
 tags: Coupons
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/sidebuy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Sidebuy
-  x-api-slug: sidebuy
-  description: Sidebuy is a data-driven influencer marketing platform that matches
-    brands with relevant influencers who create original branded content and amplify
-    its outreach through their engaged audiences. Sidebuy intelligently tracks, measures
-    and reports the pe...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1150-sidebuy.jpg
-  humanURL: http://sidebuy.com/api
-  baseURL: https:///
-  tags: Coupons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/sidebuy/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://sidebuy.com/api

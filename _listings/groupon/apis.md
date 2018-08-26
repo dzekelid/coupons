@@ -8,23 +8,11 @@ image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Coupons
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/groupon/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Groupon
-  x-api-slug: groupon
-  description: Register for a Groupon API key (client_id) to develop your own Groupon
-    applications. Now, you can put all those great ideas for Groupon improvements,
-    extensions, and multiple-platform interfaces to work.
-  image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png
-  humanURL: http://www.groupon.com/
-  baseURL: https://api.groupon.com//
-  tags: Coupons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/groupon/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/groupon.json
