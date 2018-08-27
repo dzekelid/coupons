@@ -1,0 +1,299 @@
+{
+	"name": "Streadata.io API Gallery - Coupons",
+	"description": "This is a repository of coupons APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/coupons.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://coupons.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Best Buy",
+			"x-api-slug": "best-buy",
+			"description": "Best Buy Company Profile  With operations in the United States,  Canada and Mexico, Best Buy is a North  American retailer of technology and  entertainment products and services with  a commitment to growth and innovation.  The Best Buy family of brand...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/158-best-buy-apis.jpg",
+			"humanURL": "http://www.bestbuy.com/",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/best-buy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Expedia",
+			"x-api-slug": "expedia",
+			"description": "Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc. Our technology powers the hotel offering of thousands of partners around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg",
+			"humanURL": "http://developer.ean.com/",
+			"baseURL": "https://apim.expedia.com/x/",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aisle411",
+			"x-api-slug": "aisle411",
+			"description": "Aisle411: the power of indoor navigation & augmented reality. Maximize customer engagement, optimize product placement and increase revenue.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/324-aisle411.jpg",
+			"humanURL": "http://aisle411.com",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/aisle411/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MasterCard",
+			"x-api-slug": "mastercard",
+			"description": "Mastercard is a leading global payments & technology company that connects consumers, businesses, merchants, issuers & governments around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg",
+			"humanURL": "https://developer.mastercard.com/",
+			"baseURL": "https://eas5stl0.mastercard.int:13046//z0/core/v1",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/mastercard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PowerInbox",
+			"x-api-slug": "powerinbox",
+			"description": "Chargify is the best online billing software for all of your Recurring Billing needs. Learn more about simplifying your Subscription Billing today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/385-powerinbox.jpg",
+			"humanURL": "http://docs.chargify.com/api-introduction",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/powerinbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sqoot",
+			"x-api-slug": "sqoot",
+			"description": "We power local deals in the things you use (web, mobile, desktop, etc). We help developers make money & advertisers gain distribution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/942-sqoot.jpg",
+			"humanURL": "https://www.sqoot.com/",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/sqoot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StickyStreet",
+			"x-api-slug": "stickystreet",
+			"description": "Loyalty platform for incentivization. Now powered by @mozido.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/943-stickystreet.jpg",
+			"humanURL": "http://api.stickystreet.com/",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stickystreet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sidebuy",
+			"x-api-slug": "sidebuy",
+			"description": "Sidebuy is a data-driven influencer marketing platform that matches brands with relevant influencers who create original branded content and amplify its outreach through their engaged audiences. Sidebuy intelligently tracks, measures and reports the pe...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1150-sidebuy.jpg",
+			"humanURL": "http://sidebuy.com/api",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/sidebuy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PassKit",
+			"x-api-slug": "passkit",
+			"description": "Effortlessly create and manage engaging, contextual, connected online to offline experiences with the latest technologies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1461-passkit.jpg",
+			"humanURL": "http://passkit.com",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/passkit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Moblico",
+			"x-api-slug": "moblico",
+			"description": "There are now more internet connected devices in the US than there are Americans. With over 2 million applications available for download to those devices, it is increasingly challenging to get your application noticed. But its not just about getting ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1583-moblico.jpg",
+			"humanURL": "http://moblico.com",
+			"baseURL": "https:///",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/moblico/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Groupon",
+			"x-api-slug": "groupon",
+			"description": "Register for a Groupon API key (client_id) to develop your own Groupon applications. Now, you can put all those great ideas for Groupon improvements, extensions, and multiple-platform interfaces to work.",
+			"image": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png",
+			"humanURL": "http://www.groupon.com/",
+			"baseURL": "https://api.groupon.com//",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/groupon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Coupons",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Coupons",
+	"include": [
+		{
+			"name": "Best Buy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/best-buy/apis.yaml"
+		},
+		{
+			"name": "Expedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/expedia/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Aisle411",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/aisle411/apis.yaml"
+		},
+		{
+			"name": "MasterCard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/mastercard/apis.yaml"
+		},
+		{
+			"name": "PowerInbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/powerinbox/apis.yaml"
+		},
+		{
+			"name": "Sqoot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/sqoot/apis.yaml"
+		},
+		{
+			"name": "StickyStreet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stickystreet/apis.yaml"
+		},
+		{
+			"name": "Sidebuy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/sidebuy/apis.yaml"
+		},
+		{
+			"name": "PassKit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/passkit/apis.yaml"
+		},
+		{
+			"name": "Moblico",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/moblico/apis.yaml"
+		},
+		{
+			"name": "Groupon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/groupon/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}

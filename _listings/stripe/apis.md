@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Coupons
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-get-openapi.md
+- name: Stripe - Add Coupons
+  x-api-slug: coupons-post
+  description: You can create coupons easily via the coupon management page of the
+    Stripe dashboard. Coupon creation is also accessible via the API if you need to
+    create coupons on the fly.A coupon has either a percent_off or an amount_off and
+    currency. If you set an amount_off, that amount will be subtracted from any invoice???s
+    subtotal. For example, an invoice with a subtotal of 100 will have a final total
+    of 0 if a coupon with an amount_off of 200 is applied to it and an invoice with
+    a subtotal of 300 will have a final total of 100 if a coupon with an amount_off
+    of 200 is applied to it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/coupons-post-openapi.md
+- name: Stripe - Delete Coupons Coupon
+  x-api-slug: couponscoupon-delete
+  description: You can delete coupons via the coupon management page of the Stripe
+    dashboard. However, deleting a coupon does not affect any customers who have already
+    applied the coupon; it means that new customers can???t redeem the coupon. You
+    can also delete coupons via the API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
 - name: Stripe - Get Coupons Coupon
   x-api-slug: couponscoupon-get
   description: Retrieves the coupon with the given ID.
@@ -42,6 +76,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+- name: Stripe - Add Coupons Coupon
+  x-api-slug: couponscoupon-post
+  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
+    amount_off) are, by design, not editable.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+- name: Stripe - Delete Coupons Coupon
+  x-api-slug: couponscoupon-delete
+  description: You can delete coupons via the coupon management page of the Stripe
+    dashboard. However, deleting a coupon does not affect any customers who have already
+    applied the coupon; it means that new customers can???t redeem the coupon. You
+    can also delete coupons via the API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
 - name: Stripe - Get Coupons Coupon
   x-api-slug: couponscoupon-get
   description: Retrieves the coupon with the given ID.
@@ -56,6 +118,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+- name: Stripe - Add Coupons Coupon
+  x-api-slug: couponscoupon-post
+  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
+    amount_off) are, by design, not editable.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+- name: Stripe - Delete Coupons Coupon
+  x-api-slug: couponscoupon-delete
+  description: You can delete coupons via the coupon management page of the Stripe
+    dashboard. However, deleting a coupon does not affect any customers who have already
+    applied the coupon; it means that new customers can???t redeem the coupon. You
+    can also delete coupons via the API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
 - name: Stripe - Get Coupons Coupon
   x-api-slug: couponscoupon-get
   description: Retrieves the coupon with the given ID.
@@ -70,6 +160,61 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+- name: Stripe - Add Coupons Coupon
+  x-api-slug: couponscoupon-post
+  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
+    amount_off) are, by design, not editable.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+- name: Stripe - Add Coupons Coupon
+  x-api-slug: couponscoupon-post
+  description: Updates the metadata of a coupon. Other coupon details (currency, duration,
+    amount_off) are, by design, not editable.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-post-openapi.md
+- name: Stripe - Get Coupons Coupon
+  x-api-slug: couponscoupon-get
+  description: Retrieves the coupon with the given ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-get-openapi.md
+- name: Stripe - Delete Coupons Coupon
+  x-api-slug: couponscoupon-delete
+  description: You can delete coupons via the coupon management page of the Stripe
+    dashboard. However, deleting a coupon does not affect any customers who have already
+    applied the coupon; it means that new customers can???t redeem the coupon. You
+    can also delete coupons via the API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/stripe/couponscoupon-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io

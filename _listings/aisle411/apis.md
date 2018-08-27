@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/324-aisle4
 x-kinRank: "7"
 x-alexaRank: "1583021"
 tags: Coupons
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/coupons/master/_listings/aisle411/apis.md
 specificationVersion: "0.14"
 apis: []
